@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GITHUB API</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-container">
+    <p>Header Content</p>
+  </div>
+</div>
+
+<section>
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+  <ul class="sidebar-list">
+  </ul>
+
+  <script type="text/template" data-template-name="sidebar-list">
+    <li class="sidebar-list-item">
+      <div class="sidebar-user">
+        <img src="<% image %>" alt="Avatar">
+        <p class="git-name"><% name %></p>
+        <p class="username"><% user %></p>
+      </div>
+      <div class="sidebar-info">
+        <p class="company"><% company %></p>
+        <p class="location"><% location %></p>
+        <p class="email"><% email %></p>
+        <p class="joined"><% joined %></p>
+      </div>
+    </li>
+  </script>
+
+</div>
+
+<!-- END Sidebar -->
+
+
+<!-- Repo List -->
+
+<div class="content">
+
+  <ul class="repo-list">
+  </ul>
+
+  <script type="text/template" data-template-name="repo-list">
+    <li class="repo-list-item">
+
+      <div class="repo-name"><p><a href="#"><% name %></a></p>
+        <div class="updated"><p><% created %></p></div>
+      </div>
+      <div class="repo-right"><p><% language %> <% starred %> <% forks %></p></div>
+    </li>
+  </script>
+
+</div>
+
+<!-- END Repo List -->
+
+
+<script type="text/javascript" src="token.js"></script>
+<script src="scripts/data-git.js"></script>
+<script src="scripts/data-git-repo.js"></script>
+<script src="scripts/main.js"></script>
+
+</section>
+</body>
+</html>

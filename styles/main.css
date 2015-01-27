@@ -1,3 +1,115 @@
+* {
+  box-sizing: border-box; }
 
+body {
+  margin: 0 auto;
+  background: #fff; }
+
+.header {
+  background: #f0f0f0;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  padding-top: 0; }
+
+.header-container {
+  width: 960px;
+  margin: 0 auto; }
+
+.header-container p {
+  margin: 0;
+  padding-top: 40px; }
+
+section {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 15px; }
+
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  padding: 15px; }
+
+.content {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 780px;
+  color: #000;
+  padding: 15px; }
+
+.repo-list-item {
+  list-style: none;
+  border-top: 1px solid #dfdfdf; }
+
+.repo-list-item .repo-name a {
+  text-decoration: none;
+  color: navy;
+  font-size: 20px;
+  font-family: sans-serif; }
+
+.repo-list {
+  padding-left: 0; }
+
+.repo-name {
+  display: inline-block;
+  width: 560px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.repo-name p {
+  margin: 0;
+  padding-bottom: 5px; }
+
+.repo-name .updated p {
+  margin: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #999;
+  font-weight: normal;
+  padding-top: 10px; }
+
+.repo-right {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #999;
+  vertical-align: top;
+  padding-top: 25px; }
+
+.sidebar-list-item {
+  list-style: none; }
+
+.sidebar-user {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 25px; }
+
+.sidebar-user img {
+  border-radius: 10px; }
+
+.sidebar-user .git-name {
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 5px; }
+
+.sidebar-user .username {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 5px;
+  color: #555;
+  font-weight: lighter; }
+
+.sidebar-info {
+  color: #999;
+  font-family: sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
